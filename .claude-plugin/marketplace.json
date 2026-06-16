@@ -1,6 +1,6 @@
 {
   "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
-  "name": "web-media-getter-skill",
+  "name": "web-media-getter",
   "description": "One query across free image/video/GIF APIs, license-tagged results.",
   "owner": {
     "name": "Conner K Ward",

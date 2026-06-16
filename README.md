@@ -8,7 +8,7 @@
 
 ```
 /plugin marketplace add connerkward/web-media-getter-skill
-/plugin install web-media-getter@web-media-getter-skill
+/plugin install web-media-getter@web-media-getter
 ```
 
 Or install the whole set: `/plugin marketplace add connerkward/connerkward-skills`. Or drop this repo's `SKILL.md` into your agent's skills directory.
