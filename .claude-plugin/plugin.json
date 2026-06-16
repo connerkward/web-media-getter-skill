@@ -1,0 +1,25 @@
+{
+  "name": "web-media-getter",
+  "description": "web-media-getter is a Claude Code skill (and standalone zero-dep CLI) that searches free image / video / GIF APIs",
+  "version": "0.1.0",
+  "author": {
+    "name": "Conner K Ward",
+    "url": "https://github.com/connerkward"
+  },
+  "homepage": "https://github.com/connerkward/web-media-getter-skill",
+  "repository": "https://github.com/connerkward/web-media-getter-skill",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "claude-skill",
+    "claude-code-skill",
+    "agent-skills",
+    "anthropic",
+    "stock-media",
+    "free-images",
+    "stock-video",
+    "gif",
+    "media-search",
+    "api"
+  ]
+}
