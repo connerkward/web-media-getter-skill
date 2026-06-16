@@ -1,0 +1,20 @@
+{
+  "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
+  "name": "web-media-getter-skill",
+  "description": "One query across free image/video/GIF APIs, license-tagged results.",
+  "owner": {
+    "name": "Conner K Ward",
+    "url": "https://github.com/connerkward"
+  },
+  "version": "1.0.0",
+  "plugins": [
+    {
+      "name": "web-media-getter",
+      "description": "One query across free image/video/GIF APIs, license-tagged results.",
+      "source": {
+        "source": "github",
+        "repo": "connerkward/web-media-getter-skill"
+      }
+    }
+  ]
+}
