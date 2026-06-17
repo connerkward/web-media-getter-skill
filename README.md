@@ -1,5 +1,7 @@
 # web-media-getter
 
+*web-media-getter is a Claude Code skill that runs one query across free image/video/GIF APIs and returns a single license-tagged list of results.*
+
 ![License: MIT](https://img.shields.io/badge/license-MIT-blue) ![Python 3.8+](https://img.shields.io/badge/python-3.8%2B-3776ab) ![Zero deps](https://img.shields.io/badge/deps-stdlib%20only-46d39a) ![Media: images · video · gifs](https://img.shields.io/badge/media-📷%20images%20·%20🎬%20video%20·%20🎞️%20gifs-111)
 
 Search a pile of free media APIs with **one query** and get back a single,

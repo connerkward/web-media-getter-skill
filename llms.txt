@@ -1,0 +1,14 @@
+# web-media-getter
+
+> web-media-getter is a Claude Code skill that runs one query across free image, video, and GIF APIs and returns a single license-tagged list of results.
+
+## Install (Claude Code)
+- Add the marketplace: `/plugin marketplace add connerkward/ckw-skills`
+- Install this plugin: `/plugin install web-media-getter@connerkward`
+
+## Links
+- Canonical README: https://github.com/connerkward/web-media-getter-skill
+- Marketplace (all of Conner K. Ward's skills + MCP servers): https://github.com/connerkward/ckw-skills
+
+## Optional
+- Author: Conner K. Ward — https://github.com/connerkward
