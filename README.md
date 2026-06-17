@@ -11,7 +11,7 @@ anywhere `python3` does.
 
 *One query → five free sources fanned out at once, each result badged by source and license.*
 
-## Why
+## 🤔 Why
 
 When you need a *real* photo or a piece of archival footage — a hero image, a
 texture, 1930s factory film, a reaction GIF — you usually end up tab-hopping
@@ -19,7 +19,7 @@ across NASA, Wikimedia, the Internet Archive, and a couple of stock sites, each
 with its own search box and its own licensing fine print. This collapses all of
 that into one command and hands the licensing back to you with every result.
 
-## Install
+## 📦 Install
 
 You only need Python 3.8+ (already on most Macs and Linux machines). Grab the
 single script:
@@ -32,10 +32,25 @@ python3 webmedia.py "your query"
 That's the whole install — no `pip install`, no virtualenv, nothing to keep
 updated.
 
-> Using this with Claude Code or another AI agent? Install it as a skill and let
-> the agent drive it — see **[docs/agents.md](docs/agents.md)**.
+### 🪟 On Windows
 
-## Use it
+The script is pure standard library, so it runs on Windows too — you just need
+Python, which isn't preinstalled there. Easiest path (PowerShell):
+
+```powershell
+winget install Python.Python.3      # one time, if you don't have Python
+curl.exe -O https://raw.githubusercontent.com/connerkward/web-media-getter-skill/main/webmedia.py
+python webmedia.py "your query"
+```
+
+Two Windows gotchas: the command is `python` (not `python3`), and use `curl.exe`
+explicitly so PowerShell doesn't intercept `curl` as an alias. Everything else —
+sources, downloads, attribution — works identically.
+
+> 🤖 Using this with Claude Code or another AI agent? Install it as a skill and
+> let the agent drive it — see **[docs/agents.md](docs/agents.md)**.
+
+## 🚀 Use it
 
 ```
 webmedia.py QUERY [--type image|video|gif] [--count N] [--source LIST|all|nokey]
@@ -69,7 +84,7 @@ python3 webmedia.py "saturn v" --source nasa --download --out ./downloads
 | 🎬 **Videos** | `--type video` | internet archive · nasa · pexels · pixabay |
 | 🎞️ **GIFs** | `--type gif` | klipy · giphy |
 
-## Sources
+## 🗂️ Sources
 
 The five no-key sources work the moment you run the script. The rest take a free
 API key — set the matching environment variable and they switch on automatically.
@@ -86,7 +101,7 @@ API key — set the matching environment variable and they switch on automatical
 | [KLIPY](https://klipy.com) | GIFs | ✓ | [klipy.com/developers](https://klipy.com/developers) | `KLIPY_API_KEY` |
 | [GIPHY](https://giphy.com) | GIFs | ✓ | [developers.giphy.com](https://developers.giphy.com/) | `GIPHY_API_KEY` |
 
-## Attribution & licensing
+## ⚖️ Attribution & licensing
 
 The tool reports a license for every result, but **you check the terms before you
 use anything.** A quick guide to what comes back:
