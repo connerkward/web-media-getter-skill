@@ -120,3 +120,7 @@ whether or not you read it at the time.
 
 [MIT](LICENSE) © Conner K Ward. The tool is MIT; fetched media is licensed by its
 source — see above.
+
+---
+
+🧭 **[ckw-skills](https://github.com/connerkward/ckw-skills)** — part of Conner K. Ward's collection of Claude Code skills & MCP servers.
